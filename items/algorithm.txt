@@ -1,0 +1,32 @@
+1.create items folder in the Desktop
+
+2.open git bash editor and goto(cd items)items folder
+
+3.create five file, named it as algorithm.txt,review.sh,x.pdf,y.docx,z.mp3
+
+4.write nano review.sh in git bash editor then it will show empty box to write our code
+
+5.use for loop
+
+6.loop will run for 3 times because i have used only 3 file name to execute the loop that is(*.pdf,*.docx,*.mp3)
+
+7.between do and done write the other code
+
+8.here item variable will contain all 3 filename with extension(original file eg- x.pdf ,...)
+
+9.in the first line of code between do & done from item i separated dot(.) and replaced blank to get only file name
+   without extension and stroed in folder variable
+
+10.now created nested directory(first backup and inside backup there wiil be 3 directory x,y, & z) in the Desktop
+
+11.now move all 3 files that is x.pdf,y.docx and z.mp3 into backup's x,y and z folder respectively from items folder.
+
+12.after saving the command in gitbash type " bash review.sh " this command will execute all the steps written in review.sh
+
+13.after running command it will create backup folder in desktop, inside backup there will be three folder x,y and z 
+   which will contain x.pdf, y.docx and z.mp3 respectively
+
+14.if we open items folder from desktop then will get to see only two folder after program execution.
+ 
+
+ 
